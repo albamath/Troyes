@@ -1,0 +1,4 @@
+- 27 MCF 4063 "Visualisation de données, système d'information"
+- 26 MCF 4064 "Calcul scientifique, réalité virtuelle, réalité augmentée"
+- 61 MCF 4065 "Système numérique d'aide à la personne - Traitement du signal, conception de méthodes de décision, fusion de données"
+- 27 61 MCF 4066 "Optimisation de la production et de la logistique"
