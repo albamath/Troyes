@@ -10,19 +10,20 @@
 
 ## Systèmes dynamiques
 
-Billards, cylindres discrets, escaliers
+- Billards - cylindres discrets
 
 \smallskip
 
-:   \centering![Des billards au cylindre](img/billard-cylindre.png){height=25%}![](img/escalier-recollement-variable.png){height=25%}\par
+   \centering![Des billards au cylindre](img/billard-cylindre.png){height=25%}\par
 
 \smallskip
 
-La saga des wind-trees  
+- La saga des escaliers et des wind-trees  
 
 \smallskip
 
-:   \centering![Wind-tree](img/wind-tree.png){height=25%}\par
+   \centering![](img/escalier-recollement-variable.png){height=25%}\qquad
+   ![Wind-tree](img/wind-tree.png){height=25%}\par
 
 
 ## Ma thèse
