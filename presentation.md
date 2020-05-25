@@ -1,5 +1,5 @@
 % Alba Marina Málaga Sabogal
-% Audition pour le poste MCF «Calcul scientifique, réalité virtuelle, réalité augmentée» 4064
+% Audition pour le poste MCF 4064\newline «Calcul scientifique, réalité virtuelle, réalité augmentée»
 % 26 mai 2020
 
 ## Parcours
@@ -16,7 +16,7 @@ Les billards et les cylindres discrets
 :   \centering![Des billards au cylindre](img/billard-cylindre.png){height=25%}\par
 
 
-La saga des Wind-Tree  
+La saga des Wind-trees  
 :   \centering![Wind-tree](img/wind-tree.png){height=25%}\par
 
 ## Génération de maillages 1
@@ -25,21 +25,21 @@ La saga des Wind-Tree
 Contexte  
 :   Diffusion auprès du grand public
 
-\centering![Kolibri](img/3D-Kolibri-bicolore.jpg){height=25%}![Herz](img/3D-Herz-colorie.jpg){height=25%}![Taube](img/3D-Taube-coloriee.jpg){height=25%}![Objets 3D](img/objets-3D-sur-echarpe-rouge.png){height=25%}\par
+\smallskip\centering![Kolibri](img/3D-Kolibri-bicolore.jpg){height=25%}![Herz](img/3D-Herz-colorie.jpg){height=25%}![Taube](img/3D-Taube-coloriee.jpg){height=25%}![Objets 3D](img/objets-3D-sur-echarpe-rouge.png){height=25%}\par\smallskip
 
 But  
-:   Des méthodes pour automatiser ou semi-automatiser la production de larges catégories d'objets : surfaces algébriques, surfaces minimales, objets fractales, arbres, pavages, *... mais aussi reproduction d'objets historiques.*
+:   Des méthodes pour automatiser ou semi-automatiser la production de larges catégories d'objets : surfaces algébriques, surfaces minimales, objets fractals, arbres, pavages, *... mais aussi reproduction d'objets historiques.*
 
 ## Génération de maillages 2
 ### Adaptation de formes - le problème du zoom
 
 Contexte  
-:   Un grand nombre d'objets 3D de source muséale, numérisés.
+:   Nombreux objets de musées numérisés en 3D.
 
 Problème  
-:   On veut les représenter beaucoup plus grands que leur taille originale.
+:   Les représenter beaucoup plus grands que nature.
 
-\centering![Explorer un sceau avec un bras haptique](img/bras-haptique.jpg){height=60%}\par
+\smallskip\centering![Explorer un sceau avec un bras haptique](img/bras-haptique.jpg){height=60%}\par\smallskip
 
 Idée  
 :   Raffiner le maillage *en s'adaptant à l'exploration de l'utilisateur*.
@@ -51,9 +51,10 @@ Contexte
 :   On veut projeter une image ou une vidéo.
 
 Problème  
-:   La surface de projection ne correspond pas à la surface "naturelle" de la vidéo.
+:   La surface de projection ne correspond pas\
+à la surface "naturelle" de la vidéo.\strut
 
-\centering![Paysage et deformation](img/Neticlab-Paysage-500x260.jpg){height=60%}\par
+\smallskip\centering![Paysage et deformation](img/Neticlab-Paysage-500x260.jpg){height=50%}\par\smallskip
 
 Idée  
 :   Déformer le maillage *en s'adaptant au contexte de l'utilisateur*.
@@ -62,21 +63,21 @@ Idée
 ### À la recherche des équations perdues 
 
 Contexte  
-:   Objets illustrant des idées mathématiques concrètes.
+:   Objets illustrant des idées mathématiques.
 
 Problème  
 :   Description incomplète.
 
 But  
-:   Completer la description pour reproduire l'objet.
+:   Compléter la description pour reproduire l'objet.
 
-\centering![Modèle en plâtre](img/kummer-photo.jpg){height=25%} ![Rendu Surfer](img/kummer-surfer.png){height=25%} ![Rendu MathMod](img/kummer-mathmod.png){height=25%} ${}$ ${}$ ${}$ ???\par
+\smallskip\centering![Modèle en plâtre](img/kummer-photo.jpg){height=25%} ![Rendu Surfer](img/kummer-surfer.png){height=25%} ![Rendu MathMod](img/kummer-mathmod.png){height=25%} ${}$ ${}$ ${}$ ???\par\smallskip
 
 Idée  
 :   Numériser puis analyser.
 
 ## Réparation de maillages
-### Les subtilités de la fabrication additive
+### Subtilités de la fabrication additive
 
 Contexte  
 :   Imprimer un objet 3D de source externe.
@@ -85,23 +86,23 @@ Problème
 :   Maillage défectueux.
 
 But  
-:   Réparer le fichier pour obtenir une impression de qualité.
+:   Réparer le fichier pour une impression de qualité.
 
-\centering![3D printing defects](img/screenshot-google-3d-printing-defects.png){height=60%}\par
+\smallskip\centering![3D printing defects](img/screenshot-google-3d-printing-defects.png){height=60%}\par\smallskip
 
 ## Maillages volumiques 
-### Les polyèdres à surface minimale
+### Polyèdres à surface minimale
 
 Question  
-:   Etant donnés $n$ points dans l'espace quelle configuration maximisera la surface de leur enveloppe convexe ? 
+:   Quelle configuration de $n$ points dans l'espace minimise la surface de leur enveloppe convexe à volume fixé?
 
 Réponse  
-:   Un pre-print récent de Shigeki Akiyama donne la réponse pour $n=4...12$
+:   Akiyama donne la réponse pour $n=4$ à $12$ en 2017.
 
-\centering![Akiyama 8](img/akiyama8hull3dprint-1.jpg){height=25%}\par
+\smallskip\centering![Akiyama 8](img/akiyama8hull3dprint-1.jpg){height=25%}\par\smallskip
 
 Questions  
-:   Qu'est-ce qui se passe pour $n$ grand ? Est-ce qu'il y a des formes de faces que se repètent ? Pourrait-on paver l'espace avec ce type de polyèdres ? 
+:   Que se passe-t-il pour $n$ grand? Y a-t-il des formes de faces qui se repètent? Peut-on paver l'espace avec ce type de polyèdres?
 
 # Enseignement 
 
@@ -153,20 +154,19 @@ Questions
 
 ## Expérience en entreprise
 
-\centering
-Stage de 2ème année à la Défense (été 2012) : 
+Stage de 2e année à La Défense, 2012
   
-![Séchilienne Sidec](img/logo-sechilienne.png){height=10%}\
+\centering ![Séchilienne Sidec](img/logo-sechilienne.png){height=10%}\par
 
-Développeuse free-lance chez BlueRidge Logiciels (printemps-été 2016) :
+Développeuse freelance chez BlueRidge Logiciels, 2016
 
-![Botte](img/botte.jpg){height=20%}\par
+\centering ![Botte](img/botte.jpg){height=20%}\par
 
 ## Networking/réseau
 
 Environnements startups / université / makers
 
-|Tiers Lieux        | Lieux de fabrication numérique|Meetups|
+|Tiers-lieux        |Fabrication numérique|Meetups|
 |:------------------|:------------------|:------------------|
 |Réso-nance         |LFO                |Ladies of code     |
 |Proto204           |Small Lab          |Le Wagon           |
@@ -179,8 +179,7 @@ Environnements startups / université / makers
 
 ## Les responsabilités administratives
 
-\centering
-Faire vivre le département :
+Faire vivre le département
 
 - stages
 - projets tutorés
@@ -189,17 +188,17 @@ Faire vivre le département :
 - admissions
 - portes ouvertes
 
-![Je ne fais pas l'autruche](img/pas-autruche.png){height=25%}\
+\centering ![Je ne fais pas l'autruche](img/pas-autruche.png){height=25%} \par
 
-Actions de sensibilisation :
+Actions de sensibilisation
 
 - fête de la Science
 - nuit des chercheurs
-\par
+
 
 ## La médiation scientifique
 
-* médiation autour de projets d'Art-Science
+* médiation autour de projets art-science
     – « La lumière ne s'arrête pas là »
     – « Premières intimités de l'être »
     – « Turbulent »
@@ -221,18 +220,20 @@ Actions de sensibilisation :
 
 * représentation interactive d'un théorème récent sur les billards
 * collaboration avec Samuel Lelièvre
-* aujourd'hui financé (4500 €) par La Diagonale Paris-Saclay
+* financement:\
+  La Diagonale Paris-Saclay, Fondation Blaise Pascal
 
 # Questions ?
 
 |                                                   |                                                |                                                        |
 |-------------------------------------------|----------------------------------------|-----------------------------------------|
-|parcours mixte math-info           |un vrai souci de l'accessibilité  |fan de logiciels libres|
+|parcours mixte math-info           |vrai souci de l'accessibilité  |fan de logiciels libres|
 |                                                   |                                                |                                                        |
-|intérêt en médiation scientifique|enseignement dans le respect|continuité dans la recherche|
+|intérêt en médiation scientifique|grand respect pour les étudiants|continuité et ouverture dans la recherche|
 |                                                   |                                                |                                                        |
-|facilités de contact                     |fibre "maker"|compétences techniques|
+|facilités de contact                     |fibre «maker»|compétences techniques|
 
-J'ai à cœur de m'intégrer dans la recherche chez Gamma3 et dans l'enseignement à l'UTT.
+J'ai à cœur de m'intégrer dans la recherche chez Gamma3\
+et dans l'enseignement à l'UTT.
 
 ![](img/alba-timeline.png){width=100%}
