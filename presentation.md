@@ -1,24 +1,12 @@
 % Alba Marina Málaga Sabogal
-% Candidature au poste de maître de conférences n°4033 
-% ![UTT](img/logo-utt.jpg) ${}$ ${}$ ![ICD](img/logo-icd.png){height=18%} ![GAMMA3](img/logo-gamma3.png){height=18%}
+% Audition pour le poste MCF «Calcul scientifique, réalité virtuelle, réalité augmentée» 4064
+% 26 mai 2020
 
 ## Parcours
 
-**E**nseignement, **R**echerche, **D**éveloppement, **M**édiation
+![](img/alba-timeline-etudes.png){width=90%}
 
-|         |               |           |   |   |   |   |
-|:--------|:--------------|:----------|:-:|:-:|:-:|:-:|
-|2016-2017|U Paris 8      |ATER       |**E**|**R**|     |     |
-|2016     |BlueRidge      |dev        |     |     |**D**|     |
-|2015-2016|U Paris-Sud    |ATER       |**E**|**R**|     |     |
-|2015     |Aix-Marseille U|post-doc   |     |**R**|     |     |
-|2015     |IMAGINARY      |coord. FR  |     |     |     |**M**|
-|2013-2014|U Paris-Sud    |doctorat   |**E**|**R**|**D**|**M**|
-|2009-2011|U Paris-Sud    |master     |     |     |     |     |
-|2008-2011|Polytechnique  |cycle ingé.|     |     |     |     |
-|2008     |UNI (Lima)     |chargée TD |**E**|     |     |     |
-|2004-2006|IMCA (Lima)    |master     |     |     |     |     |
-|2002-2006|UNI (Lima)     |licence    |     |     |     |     |
+![](img/alba-timeline-viepro.png){width=90%}
 
 # Recherche
 
@@ -235,47 +223,16 @@ Actions de sensibilisation :
 * collaboration avec Samuel Lelièvre
 * aujourd'hui financé (4500 €) par La Diagonale Paris-Saclay
 
-## Chez INRIA
-
-**Si** recrutée sur le poste n°4033  
-**alors** EC au sein de Gamma3, une équipe INRIA/UTT.  
-**sinon** IGR sur le projet BPI OPALINe, à l'INRIA de Paris  
-
 # Questions ?
 
+|                                                   |                                                |                                                        |
+|-------------------------------------------|----------------------------------------|-----------------------------------------|
+|parcours mixte math-info           |un vrai souci de l'accessibilité  |fan de logiciels libres|
+|                                                   |                                                |                                                        |
+|intérêt en médiation scientifique|enseignement dans le respect|continuité dans la recherche|
+|                                                   |                                                |                                                        |
+|facilités de contact                     |fibre "maker"|compétences techniques|
 
+J'ai à cœur de m'intégrer dans la recherche chez Gamma3 et dans l'enseignement à l'UTT.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![](img/alba-timeline.png){width=100%}

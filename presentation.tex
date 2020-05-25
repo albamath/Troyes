@@ -1,0 +1,576 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+  french,
+  ignorenonframetext,
+]{beamer}
+\usepackage{pgfpages}
+\setbeamertemplate{caption}[numbered]
+\setbeamertemplate{caption label separator}{: }
+\setbeamercolor{caption name}{fg=normal text.fg}
+\beamertemplatenavigationsymbolsempty
+% Prevent slide breaks in the middle of a paragraph
+\widowpenalties 1 10000
+\raggedbottom
+\setbeamertemplate{part page}{
+  \centering
+  \begin{beamercolorbox}[sep=16pt,center]{part title}
+    \usebeamerfont{part title}\insertpart\par
+  \end{beamercolorbox}
+}
+\setbeamertemplate{section page}{
+  \centering
+  \begin{beamercolorbox}[sep=12pt,center]{part title}
+    \usebeamerfont{section title}\insertsection\par
+  \end{beamercolorbox}
+}
+\setbeamertemplate{subsection page}{
+  \centering
+  \begin{beamercolorbox}[sep=8pt,center]{part title}
+    \usebeamerfont{subsection title}\insertsubsection\par
+  \end{beamercolorbox}
+}
+\AtBeginPart{
+  \frame{\partpage}
+}
+\AtBeginSection{
+  \ifbibliography
+  \else
+    \frame{\sectionpage}
+  \fi
+}
+\AtBeginSubsection{
+  \frame{\subsectionpage}
+}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={Alba Marina Málaga Sabogal},
+  pdfauthor={Audition pour le poste MCF «Calcul scientifique, réalité virtuelle, réalité augmentée» 4064},
+  pdflang={fr},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\newif\ifbibliography
+\usepackage{longtable,booktabs}
+\usepackage{caption}
+% Make caption package work with longtable
+\makeatletter
+\def\fnum@table{\tablename~\thetable}
+\makeatother
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifxetex
+  % Load polyglossia as late as possible: uses bidi with RTL langages (e.g. Hebrew, Arabic)
+  \usepackage{polyglossia}
+  \setmainlanguage[]{french}
+\else
+  \usepackage[shorthands=off,main=french]{babel}
+\fi
+
+\title{Alba Marina Málaga Sabogal}
+\author{Audition pour le poste MCF «Calcul scientifique, réalité
+virtuelle, réalité augmentée» 4064}
+\date{26 mai 2020}
+
+\begin{document}
+\frame{\titlepage}
+
+\begin{frame}
+\begin{block}{Parcours}
+\protect\hypertarget{parcours}{}
+\includegraphics[width=0.9\textwidth,height=\textheight]{img/alba-timeline-etudes.png}
+
+\includegraphics[width=0.9\textwidth,height=\textheight]{img/alba-timeline-viepro.png}
+\end{block}
+\end{frame}
+
+\begin{frame}{Recherche}
+\protect\hypertarget{recherche}{}
+\begin{block}{Systèmes Dynamiques}
+\protect\hypertarget{systuxe8mes-dynamiques}{}
+\begin{description}
+\tightlist
+\item[Les billards et les cylindres discrets]
+\centering\includegraphics[width=\textwidth,height=0.25\textheight]{img/billard-cylindre.png}
+
+\par
+\item[La saga des Wind-Tree]
+\centering\includegraphics[width=\textwidth,height=0.25\textheight]{img/wind-tree.png}
+
+\par
+\end{description}
+\end{block}
+
+\begin{block}{Génération de maillages 1}
+\protect\hypertarget{guxe9nuxe9ration-de-maillages-1}{}
+\begin{block}{Reproduction d'objets mathématiques}
+\protect\hypertarget{reproduction-dobjets-mathuxe9matiques}{}
+\begin{description}
+\tightlist
+\item[Contexte]
+Diffusion auprès du grand public
+\end{description}
+
+\centering\includegraphics[width=\textwidth,height=0.25\textheight]{img/3D-Kolibri-bicolore.jpg}\includegraphics[width=\textwidth,height=0.25\textheight]{img/3D-Herz-colorie.jpg}\includegraphics[width=\textwidth,height=0.25\textheight]{img/3D-Taube-coloriee.jpg}\includegraphics[width=\textwidth,height=0.25\textheight]{img/objets-3D-sur-echarpe-rouge.png}
+
+\par
+
+\begin{description}
+\tightlist
+\item[But]
+Des méthodes pour automatiser ou semi-automatiser la production de
+larges catégories d'objets : surfaces algébriques, surfaces minimales,
+objets fractales, arbres, pavages, \emph{\ldots{} mais aussi
+reproduction d'objets historiques.}
+\end{description}
+\end{block}
+\end{block}
+
+\begin{block}{Génération de maillages 2}
+\protect\hypertarget{guxe9nuxe9ration-de-maillages-2}{}
+\begin{block}{Adaptation de formes - le problème du zoom}
+\protect\hypertarget{adaptation-de-formes---le-probluxe8me-du-zoom}{}
+\begin{description}
+\tightlist
+\item[Contexte]
+Un grand nombre d'objets 3D de source muséale, numérisés.
+\item[Problème]
+On veut les représenter beaucoup plus grands que leur taille originale.
+\end{description}
+
+\centering\includegraphics[width=\textwidth,height=0.6\textheight]{img/bras-haptique.jpg}
+
+\par
+
+\begin{description}
+\tightlist
+\item[Idée]
+Raffiner le maillage \emph{en s'adaptant à l'exploration de
+l'utilisateur}.
+\end{description}
+\end{block}
+\end{block}
+
+\begin{block}{Génération de maillages 3}
+\protect\hypertarget{guxe9nuxe9ration-de-maillages-3}{}
+\begin{block}{Adaptation de formes - projection sur des surfaces}
+\protect\hypertarget{adaptation-de-formes---projection-sur-des-surfaces}{}
+\begin{description}
+\tightlist
+\item[Contexte]
+On veut projeter une image ou une vidéo.
+\item[Problème]
+La surface de projection ne correspond pas à la surface ``naturelle'' de
+la vidéo.
+\end{description}
+
+\centering\includegraphics[width=\textwidth,height=0.6\textheight]{img/Neticlab-Paysage-500x260.jpg}
+
+\par
+
+\begin{description}
+\tightlist
+\item[Idée]
+Déformer le maillage \emph{en s'adaptant au contexte de l'utilisateur}.
+\end{description}
+\end{block}
+\end{block}
+
+\begin{block}{Analyse de nuages de points}
+\protect\hypertarget{analyse-de-nuages-de-points}{}
+\begin{block}{À la recherche des équations perdues}
+\protect\hypertarget{uxe0-la-recherche-des-uxe9quations-perdues}{}
+\begin{description}
+\tightlist
+\item[Contexte]
+Objets illustrant des idées mathématiques concrètes.
+\item[Problème]
+Description incomplète.
+\item[But]
+Completer la description pour reproduire l'objet.
+\end{description}
+
+\centering\includegraphics[width=\textwidth,height=0.25\textheight]{img/kummer-photo.jpg}
+\includegraphics[width=\textwidth,height=0.25\textheight]{img/kummer-surfer.png}
+\includegraphics[width=\textwidth,height=0.25\textheight]{img/kummer-mathmod.png}
+\({}\) \({}\) \({}\) ???
+
+\par
+
+\begin{description}
+\tightlist
+\item[Idée]
+Numériser puis analyser.
+\end{description}
+\end{block}
+\end{block}
+
+\begin{block}{Réparation de maillages}
+\protect\hypertarget{ruxe9paration-de-maillages}{}
+\begin{block}{Les subtilités de la fabrication additive}
+\protect\hypertarget{les-subtilituxe9s-de-la-fabrication-additive}{}
+\begin{description}
+\tightlist
+\item[Contexte]
+Imprimer un objet 3D de source externe.
+\item[Problème]
+Maillage défectueux.
+\item[But]
+Réparer le fichier pour obtenir une impression de qualité.
+\end{description}
+
+\centering\includegraphics[width=\textwidth,height=0.6\textheight]{img/screenshot-google-3d-printing-defects.png}
+
+\par
+\end{block}
+\end{block}
+
+\begin{block}{Maillages volumiques}
+\protect\hypertarget{maillages-volumiques}{}
+\begin{block}{Les polyèdres à surface minimale}
+\protect\hypertarget{les-polyuxe8dres-uxe0-surface-minimale}{}
+\begin{description}
+\tightlist
+\item[Question]
+Etant donnés \(n\) points dans l'espace quelle configuration maximisera
+la surface de leur enveloppe convexe ?
+\item[Réponse]
+Un pre-print récent de Shigeki Akiyama donne la réponse pour
+\(n=4...12\)
+\end{description}
+
+\centering\includegraphics[width=\textwidth,height=0.25\textheight]{img/akiyama8hull3dprint-1.jpg}
+
+\par
+
+\begin{description}
+\tightlist
+\item[Questions]
+Qu'est-ce qui se passe pour \(n\) grand ? Est-ce qu'il y a des formes de
+faces que se repètent ? Pourrait-on paver l'espace avec ce type de
+polyèdres ?
+\end{description}
+\end{block}
+\end{block}
+\end{frame}
+
+\begin{frame}{Enseignement}
+\protect\hypertarget{enseignement}{}
+\begin{block}{Expérience d'enseignement}
+\protect\hypertarget{expuxe9rience-denseignement}{}
+\textbf{\textgreater600h} dont 192h responsable de cours
+
+\begin{longtable}[]{@{}llll@{}}
+\toprule
+\endhead
+2016-2017 & U Paris 8 (192h) & info &
+\includegraphics[width=\textwidth,height=0.05\textheight]{img/logo-up8.png}\tabularnewline
+2015-2016 & U Paris-Sud (192h) & math &
+\includegraphics[width=\textwidth,height=0.05\textheight]{img/logo-upsaclay.png}\tabularnewline
+2014 & U Paris-Sud (96h) & math &
+\includegraphics[width=\textwidth,height=0.05\textheight]{img/logo-upsud.png}\tabularnewline
+2008 & UNI (192h) & math &
+\includegraphics[width=\textwidth,height=0.05\textheight]{img/logo-uni.png}\tabularnewline
+\bottomrule
+\end{longtable}
+\end{block}
+
+\begin{block}{Cours, cours intégrés, TD}
+\protect\hypertarget{cours-cours-intuxe9gruxe9s-td}{}
+\begin{itemize}
+\tightlist
+\item
+  Équations différentielles
+\item
+  Mathématiques numériques avec Python
+\item
+  Calculus
+\item
+  Analyse
+\item
+  Calcul formel avec SageMath
+\item
+  Structures algébriques
+\item
+  CMS avec Wordpress
+\item
+  Algèbre linéaire
+\item
+  Calcul vectoriel
+\item
+  Calcul intégral
+\item
+  Programmation orientée objet avec Java
+\end{itemize}
+\end{block}
+
+\begin{block}{Facultés d'adaptation}
+\protect\hypertarget{facultuxe9s-dadaptation}{}
+\begin{itemize}
+\tightlist
+\item
+  Programme du lycée très différent du mien
+
+  \begin{itemize}
+  \tightlist
+  \item
+    j'ai étudié les programmes (EduScol)
+  \end{itemize}
+\item
+  Cours de maths numériques sans ordinateurs
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Python sur smartphone (console Android)
+  \end{itemize}
+\item
+  Étudiants d'origines diverses
+
+  \begin{itemize}
+  \tightlist
+  \item
+    je peux enseigner en français, anglais, espagnol, polonais
+  \end{itemize}
+\item
+  \ldots{}
+\end{itemize}
+\end{block}
+
+\begin{block}{Proposition de projet tutoré}
+\protect\hypertarget{proposition-de-projet-tutoruxe9}{}
+\begin{longtable}[]{@{}lcr@{}}
+\toprule
+\endhead
+\includegraphics[width=\textwidth,height=0.25\textheight]{img/USARed.png}
+& \(\longleftrightarrow\) &
+\includegraphics[width=\textwidth,height=0.25\textheight]{img/FranceRed.png}\tabularnewline
+U. Washington & & UTT\tabularnewline
+3-4 students & & 3-4 étudiants\tabularnewline
+J. Athreya & & A. Málaga\tabularnewline
+\bottomrule
+\end{longtable}
+\end{block}
+\end{frame}
+
+\begin{frame}{Transfert technologique}
+\protect\hypertarget{transfert-technologique}{}
+\begin{block}{Expérience en entreprise}
+\protect\hypertarget{expuxe9rience-en-entreprise}{}
+\centering
+
+Stage de 2ème année à la Défense (été 2012) :
+
+\includegraphics[width=\textwidth,height=0.1\textheight]{img/logo-sechilienne.png}\\
+
+Développeuse free-lance chez BlueRidge Logiciels (printemps-été 2016) :
+
+\includegraphics[width=\textwidth,height=0.2\textheight]{img/botte.jpg}
+
+\par
+\end{block}
+
+\begin{block}{Networking/réseau}
+\protect\hypertarget{networkingruxe9seau}{}
+Environnements startups / université / makers
+
+\begin{longtable}[]{@{}lll@{}}
+\toprule
+Tiers Lieux & Lieux de fabrication numérique & Meetups\tabularnewline
+\midrule
+\endhead
+Réso-nance & LFO & Ladies of code\tabularnewline
+Proto204 & Small Lab & Le Wagon\tabularnewline
+e-sas & Fablab Digiscope & Wolfox\tabularnewline
+& X-F4B & \ldots{}\tabularnewline
+& Carrefour numérique &\tabularnewline
+& \ldots{} &\tabularnewline
+\bottomrule
+\end{longtable}
+\end{block}
+\end{frame}
+
+\begin{frame}{Remarques additionnelles}
+\protect\hypertarget{remarques-additionnelles}{}
+\begin{block}{Les responsabilités administratives}
+\protect\hypertarget{les-responsabilituxe9s-administratives}{}
+\centering
+
+Faire vivre le département :
+
+\begin{itemize}
+\tightlist
+\item
+  stages
+\item
+  projets tutorés
+\item
+  emplois du temps
+\item
+  forums
+\item
+  admissions
+\item
+  portes ouvertes
+\end{itemize}
+
+\includegraphics[width=\textwidth,height=0.25\textheight]{img/pas-autruche.png}\\
+
+Actions de sensibilisation :
+
+\begin{itemize}
+\tightlist
+\item
+  fête de la Science
+\item
+  nuit des chercheurs
+
+  \par
+\end{itemize}
+\end{block}
+
+\begin{block}{La médiation scientifique}
+\protect\hypertarget{la-muxe9diation-scientifique}{}
+\begin{itemize}
+\tightlist
+\item
+  médiation autour de projets d'Art-Science -- « La lumière ne s'arrête
+  pas là » -- « Premières intimités de l'être » -- « Turbulent »
+\end{itemize}
+
+\centering\includegraphics[width=\textwidth,height=0.15\textheight]{img/premiere-intimite-de-letre.jpg}\includegraphics[width=\textwidth,height=0.15\textheight]{img/chambre-de-lorentz.jpg}
+
+\par
+
+\begin{itemize}
+\tightlist
+\item
+  IMAGINARY France -- plus de 100 heures face au grand public -- 10
+  événements organisés ; une rencontre autour des plateformes de partage
+  -- résautage actif : incitation à de nouvelles contributions, gestion
+  des bénévoles
+\end{itemize}
+
+\centering\includegraphics[width=\textwidth,height=0.25\textheight]{img/vieux-port-alba.jpg}
+
+\par
+\end{block}
+
+\begin{block}{La recherche de fonds}
+\protect\hypertarget{la-recherche-de-fonds}{}
+\begin{block}{Blocage et illumination}
+\protect\hypertarget{blocage-et-illumination}{}
+\centering\includegraphics[width=\textwidth,height=0.2\textheight]{img/mirror1.jpg}\includegraphics[width=\textwidth,height=0.25\textheight]{img/mirror2.jpg}\includegraphics[width=\textwidth,height=0.2\textheight]{img/mirror3.jpg}
+
+\par
+
+\begin{itemize}
+\tightlist
+\item
+  représentation interactive d'un théorème récent sur les billards
+\item
+  collaboration avec Samuel Lelièvre
+\item
+  aujourd'hui financé (4500 €) par La Diagonale Paris-Saclay
+\end{itemize}
+\end{block}
+\end{block}
+\end{frame}
+
+\begin{frame}{Questions ?}
+\protect\hypertarget{questions}{}
+\begin{longtable}[]{@{}lll@{}}
+\toprule
+\endhead
+\begin{minipage}[t]{0.32\columnwidth}\raggedright
+parcours mixte math-info\strut
+\end{minipage} & \begin{minipage}[t]{0.29\columnwidth}\raggedright
+un vrai souci de l'accessibilité\strut
+\end{minipage} & \begin{minipage}[t]{0.30\columnwidth}\raggedright
+fan de logiciels libres\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.32\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.29\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.30\columnwidth}\raggedright
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.32\columnwidth}\raggedright
+intérêt en médiation scientifique\strut
+\end{minipage} & \begin{minipage}[t]{0.29\columnwidth}\raggedright
+enseignement dans le respect\strut
+\end{minipage} & \begin{minipage}[t]{0.30\columnwidth}\raggedright
+continuité dans la recherche\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.32\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.29\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.30\columnwidth}\raggedright
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.32\columnwidth}\raggedright
+facilités de contact\strut
+\end{minipage} & \begin{minipage}[t]{0.29\columnwidth}\raggedright
+fibre ``maker''\strut
+\end{minipage} & \begin{minipage}[t]{0.30\columnwidth}\raggedright
+compétences techniques\strut
+\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
+
+J'ai à cœur de m'intégrer dans la recherche chez Gamma3 et dans
+l'enseignement à l'UTT.
+
+\includegraphics[width=1\textwidth,height=\textheight]{img/alba-timeline.png}
+\end{frame}
+
+\end{document}
