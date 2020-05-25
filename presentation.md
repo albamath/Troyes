@@ -168,6 +168,20 @@ Questions
     - je peux enseigner en français, anglais, espagnol, polonais
 * ...
 
+## Adaptation à l'enseignement de l'UTT
+
+Pour les étudiants en alternance:
+
+- j'ai déjà encadré un étudiant géomaticien de Paris 8 en alternance à l'Établissement Français du Sang
+- j'ai déjà enseigné deux cours en utilisant CoCalc, une plateforme collaborative en ligne qui se prête bien à la pédagogie inversée
+
+UEs LO13 "Infographie 3D : théorie et applications":
+
+- passion de l'impression 3D
+- curiosité vis-à-vis de la réalité virtuelle
+
+Respect de l'apprenant
+
 ## Proposition de projet tutoré
 
 |             |              |             |
