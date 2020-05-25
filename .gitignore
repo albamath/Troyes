@@ -1,0 +1,26 @@
+# backups
+*.backup
+*.snapshots
+# chats
+*.sage-chat
+# latex auxiliary files
+*.aux
+*.log
+*.nav
+*.out
+*.snm
+*.synctex*
+*.toc
+# movie and audio files
+*.raw
+*.avi
+*.mkv
+*.mov
+*.mp4
+*.mpeg4
+movies/*
+# system files
+.DS_Store
+## Privacy keeping excludes
+*echanges*
+*remarques*
