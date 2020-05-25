@@ -8,16 +8,45 @@
 
 ![](img/alba-timeline-viepro.png){width=90%}
 
-# Recherche
+## Systèmes dynamiques
 
-## Systèmes Dynamiques
-
-Les billards et les cylindres discrets  
-:   \centering![Des billards au cylindre](img/billard-cylindre.png){height=25%}\par
+Les billards, les cylindres discrets et les escaliers
+:   \centering![Des billards au cylindre](img/billard-cylindre.png){height=25%}![](img/escalier-recollement-variable.png){height=25%}\par
 
 
 La saga des Wind-trees  
 :   \centering![Wind-tree](img/wind-tree.png){height=25%}\par
+
+## Ma thèse
+
+J'ai soutenu en 2014 à Orsay une thèse de doctorat intitulée
+
+*Étude d'une famille de transformations\
+préservant la mesure de $ℤ × 𝕋$.*
+
+sous la direction de Jean-Christophe Yoccoz (Collège de France).
+
+Résultats sur $ℤ × 𝕋$ $\longleftrightarrow$ escaliers infinis.
+
+**Thm** (2014) Direction fixée, escalier générique: \
+dynamique conservative, minimale et ergodique.
+
+
+## Mes travaux avec Serge Troubetzkoy
+
+Nous poussons beaucoup plus loin les thèmes de ma thèse.
+
+**Thm** (2015) Génériquement, la dynamique du wind-tree est minimale dans un large ensemble de directions.
+
+**Thm** (2016) Génériquement, la dynamique du wind-tree dans presque toute direction est ergodique.
+
+**Thm** (2016) La dynamique d'un billard VH est faiblement mélangeante dans un large ensemble de directions.
+
+**Thm** (2017) Génériquement, la dynamique du wind-tree est d'indice ergodique infini dans un large ensemble de directions.
+
+**Thm** (2019) Génériquement, la dynamique des surfaces en escalier est uniquement ergodique dans un large ensemble de directions.
+
+**Thm** (2019) Génériquement, la dynamique du wind-tree est uniquement ergodique dans un large ensemble de directions.
 
 ## Génération de maillages 1
 ### Reproduction d'objets mathématiques
@@ -104,8 +133,6 @@ Réponse
 Questions  
 :   Que se passe-t-il pour $n$ grand? Y a-t-il des formes de faces qui se repètent? Peut-on paver l'espace avec ce type de polyèdres?
 
-# Enseignement 
-
 ## Expérience d'enseignement
 
 **>600h** dont 192h responsable de cours
@@ -150,8 +177,6 @@ Questions
 |3-4 students |              |3-4 étudiants|
 |J. Athreya   |              |A. Málaga    |
 
-# Transfert technologique
-
 ## Expérience en entreprise
 
 Stage de 2e année à La Défense, 2012
@@ -174,8 +199,6 @@ Environnements startups / université / makers
 |                   |X-F4B              |...                |
 |                   |Carrefour numérique|                   |
 |                   |...                |                   | 
-
-# Remarques additionnelles
 
 ## Les responsabilités administratives
 
@@ -223,7 +246,7 @@ Actions de sensibilisation
 * financement:\
   La Diagonale Paris-Saclay, Fondation Blaise Pascal
 
-# Questions ?
+## Questions ?
 
 |                                                   |                                                |                                                        |
 |-------------------------------------------|----------------------------------------|-----------------------------------------|
