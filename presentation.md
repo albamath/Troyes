@@ -10,16 +10,24 @@
 
 ## Systèmes dynamiques
 
-Les billards, les cylindres discrets et les escaliers
+Billards, cylindres discrets, escaliers
+
+\smallskip
+
 :   \centering![Des billards au cylindre](img/billard-cylindre.png){height=25%}![](img/escalier-recollement-variable.png){height=25%}\par
 
+\smallskip
 
-La saga des Wind-trees  
+La saga des wind-trees  
+
+\smallskip
+
 :   \centering![Wind-tree](img/wind-tree.png){height=25%}\par
+
 
 ## Ma thèse
 
-J'ai soutenu en 2014 à Orsay une thèse de doctorat intitulée
+Thèse soutenue en 2014 à Orsay:
 
 *Étude d'une famille de transformations\
 préservant la mesure de $ℤ × 𝕋$.*
@@ -34,7 +42,7 @@ dynamique conservative, minimale et ergodique.
 
 ## Mes travaux avec Serge Troubetzkoy
 
-Nous poussons beaucoup plus loin les thèmes de ma thèse.
+Des résultats de plus en plus précis.
 
 **Thm** (2015) Génériquement, la dynamique du wind-tree est minimale dans un large ensemble de directions.
 
@@ -71,7 +79,8 @@ Problème
 \smallskip\centering![Explorer un sceau avec un bras haptique](img/bras-haptique.jpg){height=60%}\par\smallskip
 
 Idée  
-:   Raffiner le maillage *en s'adaptant à l'exploration de l'utilisateur*.
+:   Raffiner le maillage\
+*en s'adaptant à l'exploration de l'utilisateur*.
 
 ## Génération de maillages 3
 ### Adaptation de formes - projection sur des surfaces
@@ -86,7 +95,8 @@ Problème
 \smallskip\centering![Paysage et deformation](img/Neticlab-Paysage-500x260.jpg){height=50%}\par\smallskip
 
 Idée  
-:   Déformer le maillage *en s'adaptant au contexte de l'utilisateur*.
+:   Déformer le maillage\
+*en s'adaptant au contexte de l'utilisateur*.
 
 ## Analyse de nuages de points 
 ### À la recherche des équations perdues 
@@ -146,36 +156,31 @@ Questions
 
 ## Cours, cours intégrés, TD
 
+J'ai enseigné
+
 * Équations différentielles
 * Mathématiques numériques avec Python
 * Calculus
 * Analyse
 * Calcul formel avec SageMath
 * Structures algébriques
-* CMS avec Wordpress
+* Gestion de contenu avec Wordpress
 * Algèbre linéaire
 * Calcul vectoriel
 * Calcul intégral
 * Programmation orientée objet avec Java
 
-## Facultés d'adaptation
-
-* Programme du lycée très différent du mien
-    * j'ai étudié les programmes (EduScol)
-* Cours de maths numériques sans ordinateurs
-    - Python sur smartphone (console Android)
-* Étudiants d'origines diverses
-    - je peux enseigner en français, anglais, espagnol, polonais
-* ...
-
 ## Adaptation à l'enseignement de l'UTT
 
-Pour les étudiants en alternance:
+Alternance
 
-- j'ai déjà encadré un étudiant géomaticien de Paris 8 en alternance à l'Établissement Français du Sang
-- j'ai déjà enseigné deux cours en utilisant CoCalc, une plateforme collaborative en ligne qui se prête bien à la pédagogie inversée
+- j'ai déjà encadré un étudiant géomaticien de Paris 8\
+  en alternance à l'Établissement français du sang
+- j'ai déjà enseigné deux cours en utilisant CoCalc,\
+  plateforme collaborative en ligne qui se prête bien\
+  à la pédagogie inversée
 
-UEs LO13 "Infographie 3D : théorie et applications":
+UEs LO13 "Infographie 3D : théorie et applications"
 
 - passion de l'impression 3D
 - curiosité vis-à-vis de la réalité virtuelle
@@ -193,13 +198,13 @@ Respect de l'apprenant
 
 ## Expérience en entreprise
 
-Stage de 2e année à La Défense, 2012
-  
-\centering ![Séchilienne Sidec](img/logo-sechilienne.png){height=10%}\par
+- Stage de 2e année à La Défense, 2012
 
-Développeuse freelance chez BlueRidge Logiciels, 2016
+\centering ![Séchilienne Sidec](img/logo-sechilienne.png){height=10%} \par
 
-\centering ![Botte](img/botte.jpg){height=20%}\par
+- Développeuse freelance chez BlueRidge Logiciels, 2016
+
+\centering ![Botte](img/botte.jpg){height=20%} \par
 
 ## Networking/réseau
 
@@ -214,23 +219,23 @@ Environnements startups / université / makers
 |                   |Carrefour numérique|                   |
 |                   |...                |                   | 
 
-## Les responsabilités administratives
+## Responsabilités administratives
 
-Faire vivre le département
+- Faire vivre le département
 
-- stages
-- projets tutorés
-- emplois du temps
-- forums
-- admissions
-- portes ouvertes
+  - stages
+  - projets tutorés
+  - emplois du temps
+  - forums
+  - admissions
+  - portes ouvertes
 
 \centering ![Je ne fais pas l'autruche](img/pas-autruche.png){height=25%} \par
 
-Actions de sensibilisation
+- Actions de sensibilisation
 
-- fête de la Science
-- nuit des chercheurs
+  - fête de la Science
+  - nuit des chercheurs
 
 
 ## La médiation scientifique
